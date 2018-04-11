@@ -11,3 +11,20 @@ Informações detalhadas sobre as competições podem ser vistas nos links abaix
 
 Os códigos estão disponibilizados nas linguagens: python, C/C++. Adicionalmente, outras linguagens podem ser utilizadas como forma de divulgação de solução.
 
+## Olimpiada Brasileira de Informática
+
+A olimpiada braileira de programação é voltada para alunos do ensino fundamental e médio/técnico de escolas públicas e privadas.
+
+* [Treinamento](https://olimpiada.ic.unicamp.br/pratique/)
+* [Ementa](https://olimpiada.ic.unicamp.br/info/ementa/)
+
+## Maratona de programação
+
+A maratona de programação é destinada a aulos dos cursos de graduação e início de pós graduação na área de ciência da computação.
+
+* [Competições passada](http://maratona.ime.usp.br/antigas18.html)
+
+
+## Como usar os algoritmos do repositório
+
+## Como contribuir
