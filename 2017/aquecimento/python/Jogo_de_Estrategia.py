@@ -1,38 +1,36 @@
 
-#entrada
+#input
+players_rounds = input()
 
-jogadas=input()
-
-pontos=input()
-pontos = pontos.split ()
+all_rounds = input()
+all_rounds = all_rounds.split ()
 
 #players
-J = int(jogadas.split ()[0])
+J = int(players_rounds.split ()[0])
 #rounds
-R = int(jogadas.split ()[1])
+R = int(players_rounds.split ()[1])
 
-#players points
-jogadores = [0] * J
+#players scores
+players = [0] * J
 
 #contols the better score
-soma = 0
+score = 0
 
 #winner
-vencedor = 0
+winner = 0
 
 #for each player
-for j in range(len(jogadores)):
-    
+for j in range(len(players)):
     #count his score
-    soma_j = 0
+    score_j = 0
     for i in range(j,(R*J), J):
-        soma_j = soma_j + int(pontos[i])
+        score_j = score_j + int(all_rounds[i])
     
     #if the score of player j is better then
     #the previous j, then update the winner
-    if soma_j >= soma:
-        soma = soma_j
-        vencedor = j
+    if score_j >= score:
+        score = score_j
+        winner = j
     
 #printing the weinner
-print (vencedor+1)
+print (winner+1)

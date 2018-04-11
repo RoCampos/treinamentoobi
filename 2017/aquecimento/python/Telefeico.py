@@ -1,16 +1,15 @@
 #capacity
-C = int(input ())
+capacity = int(input ())
 
 #students
-A = int(input())
+students = int(input())
 
-#number of travels
-V = A/(C-1)
-V2= A//(C-1)
+#number of travelsv with full capacity
+travel_full_count = students//(capacity-1)
 
-if (V > V2):
-    V2 = V2 + 1
+last_travel = students % (capacity-1)
 
-print (V2)
+if (last_travel > 0):
+    travel_full_count = travel_full_count + 1
 
-
+print (travel_full_count)
